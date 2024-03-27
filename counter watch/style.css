@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***************************
+********* body ************
+*****************************/
+body{  
+    background-color: rgb(0 0 0);
+  
+}
+
+/***************************
+************ container ****
+***************************/
+
+.container{
+     
+    width: 90%;
+    margin: auto;
+}
+/***************************
+************ nav bar********
+**************************** */
+
+
+
+.navbar{
+    background-color: rgb(from color r g b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 13px;
+    border-radius: 8px;
+    height: 20vh;
+    width: 100%;
+}
+
+
+
+/* logo */
+
+.logo h2
+{
+    color:white; 
+
+} 
+.nav-list{
+    display: flex;
+    list-style:none;
+    gap:12px;
+    margin-left: 430px;
+    font-size: 18px;
+}
+.nav-list a{
+    color: white;
+    text-decoration:none;
+    padding:8px;
+}
+
+.nav-list a:hover{
+    background-color: cyan;
+    border-radius:8px;
+    color: white ;
+}
+
+
+.Explore-button button {
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 12px;
+  background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    
+    font-family:Montserrat,Montserrat-Fixed,Avenir,"Avenir Next LT Pro",Corbel,"URW Gothic",source-sans-pro,sans-serif;
+}
+
+
+.Explore-button :hover{
+    background-color:cyan;
+    border-radius:8px;
+    color: white ;
+
+    
+}
+
+#login{
+    margin-bottom: 30%;
+    margin-bottom: 5%;
+    margin-right: 50%;
+    margin-left:1% ;
+    width: 8vw;
+    height: 6vh; 
+}
+
+
+
+.icon{
+  
+    display:none;
+}
+
+
+
+.main{
+    display: flex;
+   align-items: center; 
+   /* justify-content: center; */
+  
+   width: 100%;
+   height: 80vh;
+}
+
+
+.left-side{
+    list-style: none;
+    height: 80vh;
+    width: 25%;
+  
+}
+
+
+.center-side{
+    height: 80vh;
+    width: 50%;
+  /* background-color: azure; */
+    text-align: center;
+    /* margin-top: 50px; */
+
+}
+
+
+.first-part{
+    width: 100%;
+    height: 60vh;
+    /* background-color: blueviolet; */
+}
+
+
+
+
+#count{
+    height:200px;
+    width: 200px;
+    margin-top: 150px;
+    border: 5px solid cyan;
+    border-radius: 200px 200px;
+    background-color: black;
+    /* background-image: linear-gradient(#141526, #141526), linear-gradient(to bottom, #2de5d1, #1fa4e9); */
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+#display{
+    margin-top: 200px;
+   
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+.second-part
+{
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+}
+
+#reset{
+    height: 5vh;
+    width: 9vw;
+    background-color: #2de5d1;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.third-part{
+    width: 100%;
+    height: 10vh;
+    /* background-color: violet; */
+}
+
+
+
+#reverse{
+    height: 5vh;
+    width: 9vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #141526;
+    background-color: #2de5d1;
+    cursor: pointer;
+
+}
+
+.right-side{
+    list-style: none;
+    height: 80vh;
+    width: 25%;
+    
+
+}
+
+
+@media screen and (max-width:900px){
+   
+    .nav-list{
+        display: none;
+    }
+    .icon{
+        display: block;
+        color: white;
+       
+    }
+    .logo{
+        order:1;
+    }
+    .Explore-button{
+        order: 2;
+    }
+    
+    
+}
